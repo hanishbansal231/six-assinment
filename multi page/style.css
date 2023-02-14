@@ -1,0 +1,214 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* .................... */
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: #20bc7e;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: .2s ease-out;
+}
+.btn:hover{
+    background-color: #20bc7eec;
+}
+.hover-link{
+    color: #555;
+    font-size: 1.1rem;
+    font-weight: 300;
+    transition: .2s ease-out;
+}
+.hover-link:hover{
+    color: #20bc7e;
+    text-decoration: underline;
+}
+/* Nav section start */
+nav{
+    padding: 20px 10px;
+}
+.main-nav{
+justify-content: space-between;
+}
+.main-nav img{
+    width: 130px;
+    }
+.main-nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+/* Hero section start */
+.hero-section{
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.left-section{
+    width: 50%;
+    position: relative;
+    margin-top: 100px;
+}
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    right: -40%;
+    top: -40px;
+}
+.left-section h1{
+    font-size: 60px;
+}
+.left-section p{
+    padding: 30px 0;
+    font-size:17px;
+    font-weight: 300;
+    color: #555;
+}
+.bottomAngle{
+    position: absolute;
+    right: 20px;
+}
+.mouse{
+    position: absolute;
+    right: -30px;
+    height: 25px;
+    bottom: -50px;
+}
+/* hero right section */
+.right-section{
+    width: 50%;
+}
+.greenBox{
+    position: absolute;
+    z-index: 20;
+    width: 35%;
+    bottom: -30px;
+    right: -120px;
+}
+.yellowBox{
+    position: absolute;
+    width: 30%;
+    bottom: -20px;
+    right: -135px;
+}
+.doctor{
+    height: 100%;
+    /* width: 100%; */
+    position: absolute;
+    right: -125px;
+    z-index: 30;
+    bottom: -20px;
+}
+/* About section start */
+.main-about{
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    top: -30px;
+}
+.about-info{
+    width: 50%;
+    text-align: center;
+}
+.about-info h1{
+    font-size: 40px;
+    padding: 20px 0;
+    color: #20bc7e;
+}
+.about-info p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000;
+}
+.about-achivements{
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.achivement-item{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 70px;
+    width: 130px;
+    border-radius: 6px;
+    padding-top: 10px;
+    text-align: center;
+}
+.achivement-item h2{
+    color: #20bc7e;
+}
+.achivement-item p{
+    font-weight: bold;
+}
+/* Contact section start */
+main{
+    justify-content: center;
+    position: relative;
+    height: 80vh;
+}
+.contact-form{
+    height: 450px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 9px;
+    background-color: #f9f8f8e1;
+}
+.contact-form h1{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size:2rem;
+}
+form{
+    padding: 0 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 7px;
+    border: none;
+    color: #fff;
+    margin: 5px 0;
+    border-radius: 6px;
+}
+label{
+    font-weight: bolder;
+    padding: 5px 0;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 5px;
+}
+.submitBtn{
+    background-color: #20bc7e;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+
